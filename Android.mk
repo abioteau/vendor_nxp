@@ -27,7 +27,7 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/
 include $(BUILD_PREBUILT)
 endif
 
-ifneq ($(filter kitakami loire tone, $(PRODUCT_PLATFORM)), )
+ifneq ($(filter kanuti kitakami loire tone, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := libpn547_fw
 LOCAL_MODULE_OWNER := Sony Mobile
